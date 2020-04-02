@@ -3,7 +3,7 @@ namespace ZfcUserTest\Factory\Form;
 
 use Laminas\Form\FormElementManager;
 use Laminas\ServiceManager\ServiceManager;
-use Laminas\Hydrator\ClassMethods;
+use Laminas\Hydrator\ClassMethodsHydrator;
 use ZfcUser\Factory\Form\Register as RegisterFactory;
 use ZfcUser\Options\ModuleOptions;
 use ZfcUser\Mapper\User as UserMapper;
